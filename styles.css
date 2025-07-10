@@ -71,7 +71,7 @@ main{
     font-size: 18px;
 }
 
-button{
+#sign-up-top{
     max-width:75px;
     background-color:#3882F6;
     color:#e5e7eb;
@@ -132,9 +132,9 @@ main img{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    padding:60px 0px;
     background-color: #e5e7eb;
 }
+
 
 .quote-box #quote{
     font-size:36px;
@@ -144,8 +144,52 @@ main img{
 }
 
 .quote-box #author{
-    align-self: flex-end;
+    align-self:flex-end;
+    padding-right:132px;
     color:#1f2937;
+    font-weight:700;
 }
 /* CTA */
+
+.CTA{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:#3882F6;
+    width:75%;
+    align-self: center;
+    margin:64px;
+    border-radius:10px;
+    color:#e5e7eb;
+   padding-bottom:16px;
+   padding-top:10px;
+}
+
+.CTA h3{
+    font-size: 20px;
+    font-weight:800;
+}
+
+.CTA #CTA-description{
+    font-size:12px;
+}
+
+#sign-up-bottom{
+    width: 75px;
+    max-width:75px;
+    background-color:#3882F6;
+    color:#e5e7eb;
+    font-weight:800;
+    border-radius:2px;
+    border:2px #e5e7eb solid;
+    padding:5px;
+    align-self:center;
+}
 /*FOOTER*/
+
+footer{
+    background-color:#0d0e0f;
+    color:#e5e7eb;
+    text-align: center;
+    font-size:18px;
+    padding:32px;
+}
